@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My portfolio</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+
+
+        <div class="container">
+            <header class="row">
+                <div class="col-md-6">
+                    <img class="logo" src="images/logo.jpg" alt="">
+                </div>
+                <div class="col-md-6 text-right text-uppercase">
+                        <h1>Brian Nguyen</h1>
+                        <h3>Udacity Student<h3>
+                </div>
+            </header>
+
+            <div class="row">
+                <hr>
+            </div>
+     
+            <section class="row">
+                <div class="col-md-12">
+                    <img class="img-repsonsive gaming" src="images/pacman.jpg" imgAttribution="http://www.wickedsa.com/i/2017/03/retro-gaming-wallpapers.jpg">
+                </div>
+            </section>
+
+            <div class="row">
+                <hr>
+            </div>
+
+            <h1> Featured Work </h1>
+            <section class="row">
+                <div id="first_project" "console" class="col-md-4">
+                    <img class="img-repsonsive console" src="images/xbox_one.jpg" data-toggle="modal" data-target="#project1">
+                    <h4 class="console">Xbox One</h4>
+                </div>
+
+                <div id="second_project" class="col-md-4">
+                    <img class="img-repsonsive console" src="images/playstation_4.jpg" alt="playstation 4 picture" data-toggle="modal" data-target="#project2">
+                    <h4>Playstation 4</h4>
+                   
+                </div>
+
+                <div id="third_project" class="col-md-4">
+                    <img class="img-repsonsive console" src="images/nintendo_switch.jpg" data-toggle="modal" data-target="#project3">
+                    <h4>Nintendo Switch</h4>
+                </div>
+
+                 <div id="fourth_project" class="col-md-4">
+                    <img class="img-repsonsive unknown" src="images/question_mark.jpg">
+                      <div class="overlay" data-toggle="modal" data-target="#project4">
+                        <div class="text"> Coming soon 
+                        </div>
+                      </div>
+                    <h4>???</h4>
+                </div>
+            </section>
+
+            <div class="row">
+       </div>
+
+
+        <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Xbox One</h4>
+                    </div>
+                <div class="modal-body">
+                    <img class="img-responsive modal_image" src="images/xbox_one.jpg">
+                    <p>The Xbox One is a home video game console developed by Microsoft. Announced in May 2013, it is the successor to the Xbox 360 and the third console in the Xbox family, and was released in North America, Europe (in some countries), Australia, and Brazil in November 2013, and in Japan, China, and other European countries in September 2014.
+
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Playstation 4</h4>
+                    </div>
+                <div class="modal-body">
+                    <img class="img-responsive modal_image" src="images/playstation_4.jpg">
+                    <p>The PlayStation 4 (abbreviated as PS4) is a home video game console developed by Sony Computer Entertainment. Announced as the successor to the PlayStation 3 during a press conference on February 20, 2013, it was launched on November 15 in North America, November 29 in Europe, South America and Australia, and February 22, 2014, in Japan.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Nintendo Switch</h4>
+                    </div>
+                <div class="modal-body">
+                    <img class="img-responsive modal_image" src="images/nintendo_switch.jpg">
+                    <p>The Nintendo Switch is the seventh major home video game console developed by Nintendo. Known in development as the NX, it was unveiled in October 2016, and was released worldwide on March 3, 2017. Nintendo considers the Switch a "hybrid" console.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
